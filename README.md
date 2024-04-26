@@ -15,7 +15,9 @@ and the screen remains frozen, seemingly succumbing to an offensive malicious ma
 for extra anxiety-the P.C. tower beeps every 10 seconds until 2 minutes have passed. At this point the app 
 container self-kills and the screen+mouse+keyboard are restored as if nothing happened. A perplexing ## PyInstaller Integration
 
-`PyInstaller` is a popular tool for packaging Python applications into standalone executables. With PyInstaller, you can create a single executable file (.exe on Windows, or an equivalent binary on other platforms) that includes all the necessary Python dependencies and resources. This repository includes a basic example of how you can use PyInstaller to package your Python script.
+`PyInstaller` is a popular tool for packaging Python applications into standalone executables. With PyInstaller, you can create a single executable 
+file (.exe on Windows, or an equivalent binary on other platforms) that includes all the necessary Python dependencies and resources. This repository
+includes a basic example of how you can use PyInstaller to package your Python script.
 
 ### Generating Standalone Executable
 
@@ -32,22 +34,7 @@ to be called after '10,000 milliseconds (o>seconds)' have elapsed. Similarly, wh
 it schedules the 'root.destroy()' function (which closes the 'tkinter' window) to be called after '120,000 milliseconds 
 (>2 minutes)' have elapsed. **Easily customize functions to fit your own "Game Over" malware-prank script.**
 <---satanicsmores-04/25/2024-->
-_________________________________________________________________________________________________________
-## PyInstaller Integration
-*PyInstaller: PyInstaller is a popular tool for packaging Python applications into standalone
-executables. You can use PyInstaller to create an executable file (.exe on Windows, or an
-equivalent binary on other platforms) that includes all the necessary Python dependencies
-and resources. This is a basic example of how you might use PyInstaller to package your GTK 
-application-which is already packaged in this repo.*
------------------------------------------------------------------------------------------------------
-### Generating Standalone Executable
 
-To create a standalone executable using PyInstaller, simply run the following command:
-
-```bash
-pyinstaller --onefile game_over.py```
-
-<---satanicsmores-04/26/2024-->
 
 
 
