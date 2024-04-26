@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # -Game-Over-Prank
-Script for a simple "Game Over." prank application. Good for learning/teaching code.
+Python script for a "Game Over." malware-prank application. Teaching tool; for beginners.
 =======
 A simple python APP that opens a GUI conatiner with a "click here" button. When pressed, the monitor 
 screen goes black and a "GAME OVER" red font appears. The mouse is disabled 
