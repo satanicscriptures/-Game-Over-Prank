@@ -25,16 +25,6 @@ To create a standalone executable using PyInstaller, simply run the following co
 
 ```bash
 pyinstaller --onefile game_over.py
-finale to an otherwise startling event for anyone caught off-guard by your prank.   
-#
-________________________________________________________________________________________________________
-#
-Utilizing 'tkinter' functions, simply add 'root.after(10000, beep)'. This schedules the 'beep()' function
-to be called after '10,000 milliseconds (o>seconds)' have elapsed. Similarly, when we set 'root.after(120000, root.destroy)', 
-it schedules the 'root.destroy()' function (which closes the 'tkinter' window) to be called after '120,000 milliseconds 
-(>2 minutes)' have elapsed. **Easily customize functions to fit your own "Game Over" malware-prank script.**
-<---satanicsmores-04/25/2024-->
-
 
 
 
